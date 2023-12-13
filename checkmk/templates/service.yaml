@@ -11,5 +11,9 @@ spec:
       targetPort: http
       protocol: TCP
       name: http
+    - port: 8000
+      targetPort: agent-receiver
+      protocol: TCP
+      name: agent-receiver
   selector:
     {{- include "checkmk.selectorLabels" . | nindent 4 }}
