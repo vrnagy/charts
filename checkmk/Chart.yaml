@@ -4,5 +4,5 @@ description: A Helm chart for running Checkmk via Kubernetes
 home: https://checkmk.com/
 icon: https://checkmk.com/application/files/cache/thumbnails/b1830fb7baed8d3f0ea6a1a8a2ed1a17.png
 type: application
-version: 1.0.3
+version: 1.0.4
 appVersion: "2.2.0p16"
