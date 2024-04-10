@@ -2,6 +2,18 @@ apiVersion: v1
 entries:
   checkmk:
   - apiVersion: v2
+    appVersion: 2.2.0p24
+    created: "2024-04-10T14:38:04.467743507Z"
+    description: A Helm chart for running Checkmk via Kubernetes
+    digest: d60448fc267e0ff36a78cbee13abd778964e3429e9cbaca21ca111a6e250e4f0
+    home: https://checkmk.com/
+    icon: https://checkmk.com/application/files/cache/thumbnails/b1830fb7baed8d3f0ea6a1a8a2ed1a17.png
+    name: checkmk
+    type: application
+    urls:
+    - https://github.com/vrnagy/charts/releases/download/checkmk-1.0.6/checkmk-1.0.6.tgz
+    version: 1.0.6
+  - apiVersion: v2
     appVersion: 2.2.0p16
     created: "2023-12-13T13:26:57.6770918+01:00"
     description: A Helm chart for running Checkmk via Kubernetes
@@ -73,4 +85,4 @@ entries:
     urls:
     - https://vrnagy.github.io/charts/checkmk-1.0.0.tgz
     version: 1.0.0
-generated: "2023-12-13T13:26:57.675543+01:00"
+generated: "2024-04-10T14:38:04.467773883Z"
